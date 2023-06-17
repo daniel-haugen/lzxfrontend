@@ -62,9 +62,11 @@ function root({
 
 function home(): SeoConfig<WebPage> {
   return {
-    title: 'Home',
+    title: 'Analog / Digital Video Synthesizers - Video Art ',
+    // This is the Title tag template for the home page -- one of the bigger factors for Organic traffic
     titleTemplate: '%s | LZX Industries',
-    description: 'Creative tools for video synthesis and analog image processing',
+    // This is the meta description for the home page -- not as important but could use more text.
+    description: 'Creative tools for video synthesis and analog image processing. Analog and Digital implemented video circuits for complete phosphor control.',
     robots: {
       noIndex: false,
       noFollow: false,
